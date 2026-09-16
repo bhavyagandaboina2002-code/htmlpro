@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admission Form</title>
+</head>
+
+<body>
+    <form action="./response.html" method="post" autocomplete="off">
+        <h1>ADMISSION FORM</h1>
+        <label for="std_name">Student Name:</label>
+        <input type="text" id="std_name" name="std_name" autofocus placeholder="Enter your full name">
+        <br>
+        <label for="father_name">Father Name:</label>
+        <input type="text" id="father_name" name="father_name" placeholder="Enter father name">
+        <br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="email" required>
+        <br>
+        <label for="phn">Mobile Number:</label>
+        <input type="tel" id="phn" required>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age">
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob">
+        <br>
+        <label for="">Gender:</label>  
+        <input type="radio" name="Gender" value="female">Female
+        <input type="radio" name="Gender" value="male">Male
+        <br>
+        <label for="">Course Applying For:</label>
+        <br>
+        <input type="radio" name="Course Applying For">Computer Science Engineering (CSE)
+        <br>
+         <input type="radio" name="Course Applying For">Internet of Things (IoT)
+         <br>
+        <input type="radio" name="Course Applying For">Artificial Intelligence & Data Science (AI&DS)
+        <br>
+        <input type="radio" name="Course Applying For">Information Technology (IT)
+        <br>
+        <input type="radio" name="Course Applying For">Electronics & Communication Engineering (ECE)
+        <br>
+        <label for="">Skills Known:</label>
+        <br>
+        <input type="checkbox" name="Skills Known">HTML
+        <br>
+        <input type="checkbox" name="Skills Known">CSS
+        <br>
+        <input type="checkbox" name="Skills Known">Python
+        <br>
+        <input type="checkbox" name="Skills Known">SQL
+        <br>
+        <input type="checkbox" name="Skills Known">Java
+        <br>
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo">
+        <br>
+        <label for="certificate">Upload Certificates:</label>
+        <input type="file" id="certificate">
+        <br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
